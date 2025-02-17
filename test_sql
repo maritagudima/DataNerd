@@ -1,0 +1,5 @@
+create table
+select *
+from job_postings_fact
+WHERE extract( month from job_postings_fact) = 1
+
